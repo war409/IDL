@@ -1,0 +1,6 @@
+
+Inundation By-Proportion is mapped by-time-series. A cell is classified as being inundated if the OWL 
+value is EQ, GT, GE, LT or LE a user-selected 'OWL' threshold and is EQ, GT, GE, LT or LE a user-selected 
+'proportion threshold'. Where proportion is the percentage of time inundated, that is to say, the percentage of,
+inundation count divided by total count (not including cloud dates). If the inundation criteria and the proportion 
+criteria is satisfied a cell is given a value of 1. If not, the cell is given a value of 0.

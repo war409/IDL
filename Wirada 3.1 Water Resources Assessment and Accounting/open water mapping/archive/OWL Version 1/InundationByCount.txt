@@ -1,0 +1,5 @@
+
+Inundation By-Count is mapped by-time-series. A cell is classified as being inundated if the OWL 
+value is EQ, GT, GE, LT or LE a user-selected 'OWL' threshold and is EQ, GT, GE, LT or LE a user-selected 
+'count threshold'. If the inundation criteria and the count criteria is satisfied a cell is given a value 
+of 1. If not, the cell is given a value of 0.

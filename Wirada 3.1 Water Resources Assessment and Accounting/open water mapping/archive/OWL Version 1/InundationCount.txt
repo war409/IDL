@@ -1,0 +1,5 @@
+
+Inundation Count is mapped by-time-series. Count is the number of times that the user-selected inundation threshold
+was satisfied during the time-series. For example, say the user-selected inundation 'OWL' threshold is set as
+GE50. Say a given cell has an output value of 31. This means that at that particular cell location OWL was 
+equal to, or greater than 50 a total of 31 times.

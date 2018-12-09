@@ -1,0 +1,6 @@
+
+Contiguous inundation is mapped by-time-series. A cell is classified as being inundated for a contiguous period 
+if the OWL value is EQ, GT, GE, LT or LE a user-selected 'OWL' threshold for a minimum period of time, as specified 
+by a user-selected 'duration' threshold. If for a given cell location the 'OWL' threshold and the 'duration' 
+threshold was satisfied at least once during the time-series that cell is said to have had a contiguous inundation event
+and is given a value of 1. If not, the cell is given a value of 0.
